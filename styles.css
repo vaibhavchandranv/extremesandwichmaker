@@ -24,6 +24,7 @@ body {
 }
 
 .button {
+    color: white;
     margin-top: 20px;
     font-family: 'Tiro Telugu', sans-serif;
     padding: 15px 20px;
