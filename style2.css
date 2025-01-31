@@ -2,7 +2,47 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Tourney;
+    font-family: 'Tiro Telugu', sans-serif;
+    font-size: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20%;
+    transform: translateY(-50%);
+    width: 600px;
+    animation: spinin 2s ease;
+}
+
+p {
     font-size: 20px;
     text-align: center;
+    word-wrap: break-word;
+}
+
+.button {
+    color: white;
+    margin-top: 20px;
+    font-family: 'Tiro Telugu', sans-serif;
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #7289DA;
+    border: 3px solid black;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    translate: 5px 5px;
+    box-shadow: 0px 0px 0px #000;
+}
+
+@keyframes spinin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

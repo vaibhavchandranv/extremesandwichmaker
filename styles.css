@@ -43,4 +43,14 @@ body {
 .container {
     margin-top: 25%;
     transform: translateY(-50%);
+    animation: spinin 2s ease;
+}
+
+@keyframes spinin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
